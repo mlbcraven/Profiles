@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profiles</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 style="color:darkslategray">Profile List</h1>
+        <div id="container">
+            <section id="inputs">
+                <h1>Entry Information</h1>
+                <input class="inputsTags" type="text" id="nameInp" editable="true"  placeholder="Enter name"/>
+                <input class="inputsTags" type="number" id="ageInp" placeholder="Enter age" editable="true" />
+                <button id="submit" type="submit" onclick="entry()">Entry</button>
+
+            </section>
+            <section id="results">
+                <p class="titleP"> The name :
+                    <rectangle class = "rectangle" id="nameTV"></rectangle>
+                </p>
+                <p class="titleP"> The age :
+                    <rectangle class = "rectangle" id="ageTV"></rectangle>
+                </p>
+                <p class="titleP"> Enter Permit for : 
+                    <rectangle class = "rectangle" id="acceptanceTV"></rectangle>
+                </p>
+            </section>
+            <section id="sectionlist">
+                <h1>The list</h1>
+                <div id="listdisplay">
+                    <rectangle class="rectangle" ></rectangle>
+                </div>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
